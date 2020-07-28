@@ -1,0 +1,49 @@
+body{
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Sigmar One', cursive;
+  background-color: #f6f578;
+  color: #862a5c;
+}
+
+.container{
+  width: 100%;
+}
+
+.images{
+  width: 200px;
+  height: 200px;
+  padding: 2rem;
+}
+
+button{
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: #f6f578;
+}
+
+.row{
+  padding: 1.5% 20%;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .images{
+    height: 150px;
+    width: 150px;
+    padding: 1.3rem;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .row{
+    display: block;
+  }
+  .images{
+    height: 100px;
+    width: 100px;
+    padding: 1rem;
+  }
+}
